@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>مينو </title>
+      <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <header>
+    <h1>مطعم الطازج</h1>
+	  <img src="./img/pi.jpg" alt="شعار الموقع" class="im">
+</header>
+
+<nav>
+      <ul>
+	     <li><a href="home.html">الرئيسية</a></li>
+        <li><a href="menu_images.html">القائمة</a></li>
+		 <li><a href="about.html">حول الموقع</a></li>
+		 <li><a href="special_offers.html">العروض الخاصة</a></li>
+		  <li><a href="customer_reviews.html">تقييمات العملاء</a></li>
+		  <li><a href="contact.html">التواصل معنا</a></li>
+    </ul>
+</nav>
+     <section id="i">
+      <article class="mun_img">
+	  <h2>سمك مشوي</h2>
+	  <img src="img/mi1.jpg" alt="سمك مشوي " ><br><br>
+	  <button class="o" onclick="addToCart({name: 'سمك مشوي', price: 50})">طلب</button> <!-- زر الطلب -->
+	  <hr>
+	  <h2>فتوش سلطة</h2>
+	  <img src="img/mi2.jpg" alt="فتوش سلطة " ><br><br>
+	  <button class="o" onclick="addToCart({name: 'فتوش سلطة', price: 30})">طلب</button> <!-- زر الطلب -->
+	    <hr>
+	  <h2>كنافة</h2>
+	  <img src="img/mi3.jpg" alt="كنافة " ><br><br>
+	  <button class="o" onclick="addToCart({name: 'كنافة', price: 20})">طلب</button> <!-- زر الطلب -->
+	    <hr>
+	  </article>
+    </section>
+	<footer>
+    <p>مطعم الطازج</p>
+</footer>
+ <script src="./js/script.js"> </script>
+</body>
+</html>

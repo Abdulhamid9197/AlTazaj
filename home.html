@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>مطعم الطازج</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+   
+    <h1>مطعم الطازج</h1>
+	  <img src="./img/pi.jpg" alt="شعار الموقع" class="im">
+</header>
+
+
+<nav>
+    <ul>
+	     <li><a href="home.html">الرئيسية</a></li>
+        <li><a href="menu_images.html">القائمة</a></li>
+		 <li><a href="about.html">حول الموقع</a></li>
+		 <li><a href="special_offers.html">العروض الخاصة</a></li>
+		  <li><a href="customer_reviews.html">تقييمات العملاء</a></li>
+		  <li><a href="contact.html">التواصل معنا</a></li>
+    </ul>
+</nav>
+
+<main>
+  
+      <section id="m">
+        <h2>القوائم</h2>
+        <p>تفضل بتصفح قائمة طعامنا المتنوعة:</p>
+        <ul>
+            <li>قائمة المقبلات </li>
+            <li>قائمة الأطباق الرئيسية</li>
+            <li>قائمة الحلويات</li>
+        </ul>
+    </section>
+</main>
+<main>
+        <h2>مرحبًا بكم في مطعم الطازج!</h2>
+        <p>اضغط على الزر لتغيير لون الخلفية:</p>
+        <button onclick="changeBackgroundColor('lightblue')">أزرق فاتح</button>
+        <button onclick="changeBackgroundColor('lightgreen')">أخضر فاتح</button>
+        <button onclick="changeBackgroundColor('lightcoral')">مرجاني فاتح</button>
+        <button onclick="changeBackgroundColor('white')">إعادة الخلفية إلى الأبيض</button>
+    </main>
+
+<aside>
+    <h3>حمل تطبيق الطازج
+
+حمل تطبيقنا واستمتع بوجباتنا الصحية واللذيذة</h3>
+    <ul>
+        <li><a href="https://play.google.com/store/apps/details?id=com.tazaj.tazaapp">قوقل بلاي</a></li>
+        <li><a href="https://apps.apple.com/sa/app/altazaj-ksa-ordering-%C3%98%C2%A7%C3%99%C2%84%C3%98%C2%B7%C3%98%C2%A7%C3%98%C2%B2%C3%98%C2%AC/id1314881377">
+		اب استور</a></li>
+    </ul>
+</aside>
+
+<section id="menu">
+    <h2>المينو</h2>
+    <p>تفضل بتصفح قائمة طعامنا المتنوعة:</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>الصنف</th>
+                <th>الوصف</th>
+                <th>السعر</th>
+                <th>القسم</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">سمك مشوي</td> 
+                <td> سمك مشوي على الفحم</td>
+                <td>20 ريال سعودي</td>
+                <td rowspan="2"> الأطباق الرئيسية</td> 
+            </tr>
+            <tr> 
+                <td>مع صلصة خاصة وتقديم مع الأرز</td>
+                <td>30 ريال سعودي</td>
+            </tr>
+            <tr>
+                <td>فتوش سلطة</td>
+                <td>سلطة تقليدية شرقية مع الطماطم والخيار والبقدونس والرمان </td>
+                <td>22 ريال سعودي</td>
+                <td> المقبلات</td> 
+            </tr>
+            <tr>
+                <td>كنافة</td>
+                <td>حلوى شرقية تقليدية مع القشطة والقطر</td>
+                <td>15 ريال سعودي</td>
+                <td>الحلويات</td> 
+            </tr>
+            <tr>
+                <td>شاورما دجاج</td>
+                <td> شاورما الدجاج المتبلة والمشوية بشكل رائع وتقديم مع الخبز والصوص</td>
+                <td>35 ريال </td>
+                <td>الأطباق الرئيسية</td> 
+            </tr>
+            <tr>
+                <td>حمص بالطحينة</td>
+                <td>حمص مطبوخ بشكل رائع ومعصور بالطحينة</td>
+                <td>18 ريال سعودي </td>
+                <td>المقبلات</td> 
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>مطعم الطازج</p>
+</footer>
+  <script src="./js/script.js"> </script>
+    <script>// وظيفة لعرض تنبيه عند تحميل الصفحة
+window.onload = function() {
+    alert("مرحبًا بكم في مطعم الطازج!");
+}
+ </script>
+
+</body>
+</html>

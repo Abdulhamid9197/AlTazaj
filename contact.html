@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تواصل معنا</title>
+      <link rel="stylesheet" href="./css/style.css">
+    <script>
+        
+    </script>
+</head>
+<body>
+    <header>
+        <h1>مطعم الطازج</h1>
+         <img src="./img/pi.jpg" alt="شعار الموقع" class="im">
+    </header>
+
+    <ul>
+	     <li><a href="home.html">الرئيسية</a></li>
+        <li><a href="menu_images.html">القائمة</a></li>
+		 <li><a href="about.html">حول الموقع</a></li>
+		 <li><a href="special_offers.html">العروض الخاصة</a></li>
+		  <li><a href="customer_reviews.html">تقييمات العملاء</a></li>
+		  <li><a href="contact.html">التواصل معنا</a></li>
+		
+    </ul>
+
+    <main>
+        <section id="contact">
+            <h2>تواصل معنا</h2>
+            <p>نحن هنا للمساعدة! يرجى ملء النموذج أدناه وسنعود إليك في أقرب وقت ممكن.</p>
+            <form onsubmit="return validateForm()">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>مطعم الطازج</p>
+    </footer>
+	 <script src="./js/script.js"></script>
+</body>
+</html>

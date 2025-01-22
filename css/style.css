@@ -1,0 +1,220 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #228B22;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header .im {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* إعدادات القائمة */
+ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #228B22;
+}
+
+/* إعدادات العروض */
+main {
+    padding: 30px;
+}
+
+#offers h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #228B22;
+}
+
+#offers p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* إعدادات كل عرض */
+.offer {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.offer h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.offer img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.offer p {
+    font-size: 1.3em;
+    color: #555;
+}
+
+/* جدول القائمة */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 1.5em;
+}
+
+th {
+    background-color: #228B22;
+    color: #fff;
+}
+
+/* إعدادات التواصل */
+form {
+    max-width: 600px; /* الحد الأقصى لعرض النموذج */
+    margin: 20px auto; /* مركز النموذج في الصفحة */
+    padding: 20px; /* حشوة داخلية */
+    background-color: #f9f9f9; /* لون خلفية النموذج */
+    border: 1px solid #ccc; /* إطار للنموذج */
+    border-radius: 8px; /* زوايا دائرية */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل للنموذج */
+}
+
+form label {
+    display: block;
+    font-size: 1.5em;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; /* تأثير عند التفاعل */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #228B22; /* تغيير لون الإطار عند التركيز */
+    outline: none; /* إزالة الإطار الافتراضي */
+}
+
+form button {
+    padding: 15px 30px;
+    background-color: #228B22;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* تأثير عند التفاعل */
+}
+
+form button:hover {
+    background-color: #337a33;
+}
+
+.order-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .o {
+            background-color: #218838;
+        }
+		
+		.	.o {
+    background-color: #4CAF50; /* اللون الأخضر */
+    color: white; /* لون النص أبيض */
+    padding: 10px 15px; /* مساحة داخل الزر */
+    border: none; /* بدون حدود */
+    border-radius: 5px; /* زوايا مدورة */
+    cursor: pointer; /* شكل المؤشر عند المرور فوق الزر */
+    font-size: 16px; /* حجم الخط */
+    margin-top: 10px; /* مسافة فوق الزر */
+}
+
+.o {
+    background-color: #45a049; /* تغيير لون الزر عند المرور */
+}
+/* إعدادات الفوتر */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    margin-top: 30px;
+}

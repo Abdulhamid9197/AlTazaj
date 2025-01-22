@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>العروض الخاصة</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>مطعم الطازج</h1>
+          <img src="./img/pi.jpg" alt="شعار الموقع" class="im">
+    </header>
+
+    <ul>
+	     <li><a href="home.html">الرئيسية</a></li>
+        <li><a href="menu_images.html">القائمة</a></li>
+		 <li><a href="about.html">حول الموقع</a></li>
+		 <li><a href="special_offers.html">العروض الخاصة</a></li>
+		  <li><a href="customer_reviews.html">تقييمات العملاء</a></li>
+		  <li><a href="contact.html">التواصل معنا</a></li>
+    </ul>
+
+    <main>
+        <section id="offers">
+            <h2>العروض الخاصة</h2>
+            <p>استمتع بأفضل العروض والخصومات لدينا!</p>
+            <article class="offer">
+                <h3>عرض 1: وجبة عائلية</h3>
+                <img src="./img/offer1.jpg" alt="عرض وجبة عائلية">
+                <p>احصل على وجبة عائلية مكونة من 4 أطباق رئيسية وطبق مقبلات بسعر 100 ريال سعودي فقط!</p>
+				 <button class="order-button" onclick="orderItem('وجبة عائلية')">طلب</button>
+            </article>
+            <article class="offer">
+                <h3>عرض 2: خصم 20%</h3>
+                <img src="./img/offer2.jpg" alt="عرض خصم 20%">
+                <p>احصل على خصم 20% على جميع الطلبات عند الطلب عبر التطبيق.</p>
+				  <button class="order-button" onclick="orderItem('خصم 20%')">طلب</button>
+            </article>
+            <article class="offer">
+                <h3>عرض 3: وجبة الغداء</h3>
+                <img src="./img/offer3.jpg" alt="عرض وجبة الغداء">
+                <p>استمتع بوجبة غداء خاصة مقابل 30 ريال سعودي فقط!</p>
+				<button class="order-button" onclick="orderItem('وجبة الغداء')">طلب</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>مطعم الطازج</p>
+    </footer>
+	  <script src="./js/script.js"> </script>
+</body>
+</html>
